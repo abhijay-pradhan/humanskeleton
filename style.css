@@ -1,0 +1,28 @@
+.text {
+	font-family: 'Texturina' , sans-serif;
+}
+body {
+	text-align: center;
+}
+.tr {
+	font-family: 'Texturina' , sans-serif;
+	font-size: 15px;
+}
+.we {
+	text-align: left;	
+}
+table {
+  font-family: 'Roboto', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color:;
+}
