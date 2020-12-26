@@ -34,3 +34,39 @@ td, th {
 tr:nth-child(even) {
   background-color:;
 }
+.font-roboto {
+	font-family: 'Roboto' , sans-serif;
+}
+/* scrollbar */
+::-webkit-scrollbar {
+  width:9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+html {
+	scroll-behavior: smooth;
+}
+.line {
+	background-color: black;
+	height: 2px;
+	width: 95%;
+	margin: 1%
+}
+.h3 {
+	text-align: center;
+}
